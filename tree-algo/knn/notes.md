@@ -30,3 +30,7 @@ KNN operates on a simple premise: **data points with similar features tend to ha
 4. **Limited complexity capture**: Struggles with complex non-linear relationships and high-dimensional data (curse of dimensionality)
 5. **Choose K wisely**: Typically K=3-5 for classification, but validate with cross-validation
 6. **Memory intensive**: Stores entire training dataset; impractical for very large datasets
+
+
+elbow method for k
+minkowski
