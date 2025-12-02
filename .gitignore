@@ -1,2 +1,5 @@
 .venv
 kaggle.json
+.csv
+*dataset*
+*datasets*
