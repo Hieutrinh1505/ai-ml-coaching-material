@@ -13,11 +13,11 @@ Predict whether a client will subscribe to a bank term deposit using tree-based 
 
 ## Models Trained
 
-| Model | ROC-AUC | Precision | Recall | F1-Score | Best Params |
-|-------|---------|-----------|--------|----------|-------------|
-| Decision Tree | **0.9476** | 0.6921 | 0.6515 | 0.6714 | max_depth=10, min_samples_leaf=8 |
-| Random Forest | **0.9528** | 0.6906 | 0.6689 | 0.6796 | max_depth=10, max_features='sqrt', n_estimators=100 |
-| XGBoost | **0.9650** | 0.7186 | 0.7012 | 0.7098 | learning_rate=0.1, max_leaves=64 |
+| Model         | ROC-AUC    | Precision | Recall | F1-Score | Best Params                                         |
+| ------------- | ---------- | --------- | ------ | -------- | --------------------------------------------------- |
+| Decision Tree | **0.9476** | 0.6921    | 0.6515 | 0.6714   | max_depth=10, min_samples_leaf=8                    |
+| Random Forest | **0.9528** | 0.6906    | 0.6689 | 0.6796   | max_depth=10, max_features='sqrt', n_estimators=100 |
+| XGBoost       | **0.9650** | 0.7186    | 0.7012 | 0.7098   | learning_rate=0.1, max_leaves=64                    |
 
 ## Key Insights
 
