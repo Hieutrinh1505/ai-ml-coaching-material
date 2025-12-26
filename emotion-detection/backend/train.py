@@ -1,11 +1,27 @@
+"""
+Training script for the Emotion Detection CNN model.
+
+This script handles the complete training pipeline:
+1. Loading and preprocessing image datasets
+2. Initializing the EmotionCNN model
+3. Training loop with validation
+4. Saving the best model based on validation accuracy
+
+Usage:
+    python train.py
+
+The trained model will be saved as 'best_model.pth' in the current directory.
+"""
+
 import sys
 from pathlib import Path
 
+# Add parent directory to path for importing custom modules
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from utils.model import EmotionCNN
 from utils.processing import ImageProcessing
-import torch.optim as optim 
+import torch.optim as optim
 from torch.nn import CrossEntropyLoss
 from tqdm import tqdm
 import torch
